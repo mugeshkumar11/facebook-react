@@ -74,11 +74,42 @@ const header = (
           <div className={'story4'}>
           <img src={srcImg4}/>
           </div>
-         
-
          </div>
+         <div className={'postbox'}>
+          <div className={'postinput'}>
+          <i className={'bi bi-person-circle'}></i>
+          <input type={'text'} placeholder={'whats on your mind on mugesh?'}/>
+          </div>
+          <div className={'hline'}></div>
+          <div className={'posticon'}>
+            <h4><i className={"bi bi-camera-video"}></i>Live video</h4>
+            <h4><i className={"bi bi-file-image"}></i>Image/video</h4>
+            <h4><i className={"bi bi-emoji-laughing"}></i>feeling</h4>
+          </div>
+       </div>
+       <div className={'photopost'}>
+      
+         <div className={'postimage'}>
+         <i className={'bi bi-person-circle'}></i>
+         <h4>mugeshkumar</h4>
+         <span><i className={"bi bi-three-dots"}></i></span>
+         </div>
+         <img src={srcImg1}/>
+
+       </div>
+       <div className={'photopost'}>
+      
+      <div className={'postimage'}>
+      <i className={'bi bi-person-circle'}></i>
+      <h4>mugeshkumar</h4>
+      <span><i className={"bi bi-three-dots"}></i></span>
+      </div>
+      <img src={srcImg2}/>
+
+    </div>
           
       </div>
+      
       <div className={'content3'}>
         <div className='chatbox1'>
           <h4>sponsored</h4>

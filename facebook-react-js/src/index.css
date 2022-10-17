@@ -19,13 +19,6 @@ code {
 }
 .header{
   box-shadow: 0px 0px 10px -5px;
- /* position:fixed;
-  width:100%;
-   top: 0; 
-   right: 0; 
-  left: 0; 
-  z-index: 979;
-  */
 }
 .container{
   width:100%;
@@ -84,12 +77,14 @@ background-color:#f0f2f5;
 }
 .content1{
   width:30% ;
+ 
 }
 .content2{
   width: 40%;
 }
 .content3{
   width: 30%;
+ 
 }
 .content1 h3{
 padding-top: 25px;
@@ -212,4 +207,74 @@ line-height: 28px;
 }
 .chatlist i{
   letter-spacing: 10px;
+}
+.postbox {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 36px;
+  margin-right: 45px;
+}
+.postinput{
+  display: flex;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+.postinput i{
+  letter-spacing: 8px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.postinput input{
+padding: 5px 100px;
+border-radius: 30px;
+background-color: #f0f2f5;
+border: none;
+margin-bottom: 15px;
+}
+.hline{
+  width: 95%;
+  border: solid 1px #e4e6eb;
+  margin-left: 3%;
+}
+.posticon{
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.posticon i{
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.posticon h4{
+  padding-left: 25px;
+}
+.postimage{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 36px;
+  margin-right: 45px;
+}
+.postimage{
+  display: flex;
+  padding-left: 15px;
+}
+.postimage i{
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+ .postimage span {
+  margin-left: 58%;
+}
+.postimage h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.photopost img{
+  width: 84.5%;
+  height: 300px;
+  margin-left: 36px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+  background-color: #fff;
 }
